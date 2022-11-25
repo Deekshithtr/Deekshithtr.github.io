@@ -8,10 +8,10 @@ const RouteComponent: React.FC = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route index path='/Ekart' element={<Products />} />
+        <Route index path='/' element={<Products />} />
         <Route path='/products/:id' element={<ProductDetails />} />
         <Route path='/cart' element={<Cart />} />
-        <Route path="*" element={<Navigate to="/Ekart" replace/>}  />
+        <Route path="*" element={<Navigate to="/" replace/>}  />
       </Routes>
     </BrowserRouter>
   );
