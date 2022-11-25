@@ -63,7 +63,7 @@ const Products = () => {
   }, [products, searchTerm, productList]);
 
   const handleImageClick = (id: number) => {
-    navigate(`${id}`);
+    navigate(`products/${id}`);
   };
 
   return (

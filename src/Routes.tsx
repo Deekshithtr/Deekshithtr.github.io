@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route,Navigate } from 'react-router-dom';
 import Navbar from './components/navbar/Navbar';
 import { Products, ProductDetails, Cart } from './pages/home';
 
@@ -8,9 +8,10 @@ const RouteComponent: React.FC = () => {
     <BrowserRouter>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Products />} />
-        <Route path='/:id' element={<ProductDetails />} />
+        <Route index path='/' element={<Products />} />
+        <Route path='/products/:id' element={<ProductDetails />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path="*" element={<Navigate to="/" replace/>}  />
       </Routes>
     </BrowserRouter>
   );
