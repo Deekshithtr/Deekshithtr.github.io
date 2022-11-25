@@ -1,46 +1,24 @@
-# Getting Started with Create React App
+# E-commerce application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a E-commerce application which was built using `react` library with `typescript` as a language.Here I have used `redux-toolkit` for state management, `react-router-dom` for routing and `redux-persist` for maintaining store details after page refresh.The data is fetched from `https://fakestoreapi.com` api.
 
-## Available Scripts
+To view the ecommerce web application [Click here](https://deekshithtr.github.io/EKart/).
 
-In the project directory, you can run:
 
-### `npm start`
+## Snapshots
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+**Product listing page**
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![image](https://user-images.githubusercontent.com/32680189/203946667-d4864c6a-6a5f-4e07-be7b-a27436a35d39.png)
 
-### `npm test`
+**Product detail page**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![image](https://user-images.githubusercontent.com/32680189/203947186-4d4e1dc3-a01e-4a3b-bbb8-39cc6d979416.png)
 
-### `npm run build`
+**Cart details**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/32680189/203947213-b00da477-6b4e-42b0-ab48-39eaf4758769.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**products 1,3,5 are unavailable & 5% offer on prime products**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://user-images.githubusercontent.com/32680189/203947219-0222bcaa-409d-4512-adcb-9e87d5e8d2c4.png)
