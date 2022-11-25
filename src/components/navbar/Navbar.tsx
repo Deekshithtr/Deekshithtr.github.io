@@ -27,12 +27,12 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-      <div onClick={() => handleClick('/')} className='navbarHeading'>
+      <div onClick={() => handleClick('/ekart')} className='navbarHeading'>
         E-Kart
       </div>
       <div className='rightContent'>
         <Search value={search} onChange={handleSearch} />
-        <ShoppingCartIcon onClick={() => handleClick('cart')} className='cartIcon' />
+        <ShoppingCartIcon onClick={() => handleClick('ekart/cart')} className='cartIcon' />
       </div>
     </div>
   );
