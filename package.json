@@ -2,7 +2,7 @@
   "name": "e-cart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Deekshithtr.github.io/Deekshithtr.github.io",
+  "homepage": "https://Deekshithtr.github.io/EKart",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",

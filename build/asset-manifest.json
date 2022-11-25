@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Deekshithtr.github.io/static/css/main.e1ea27ac.css",
-    "main.js": "/Deekshithtr.github.io/static/js/main.8c48d328.js",
-    "static/js/787.44c81a1f.chunk.js": "/Deekshithtr.github.io/static/js/787.44c81a1f.chunk.js",
-    "index.html": "/Deekshithtr.github.io/index.html",
-    "main.e1ea27ac.css.map": "/Deekshithtr.github.io/static/css/main.e1ea27ac.css.map",
-    "main.8c48d328.js.map": "/Deekshithtr.github.io/static/js/main.8c48d328.js.map",
-    "787.44c81a1f.chunk.js.map": "/Deekshithtr.github.io/static/js/787.44c81a1f.chunk.js.map"
+    "main.css": "/EKart/static/css/main.e1ea27ac.css",
+    "main.js": "/EKart/static/js/main.8267f338.js",
+    "static/js/787.44c81a1f.chunk.js": "/EKart/static/js/787.44c81a1f.chunk.js",
+    "index.html": "/EKart/index.html",
+    "main.e1ea27ac.css.map": "/EKart/static/css/main.e1ea27ac.css.map",
+    "main.8267f338.js.map": "/EKart/static/js/main.8267f338.js.map",
+    "787.44c81a1f.chunk.js.map": "/EKart/static/js/787.44c81a1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e1ea27ac.css",
-    "static/js/main.8c48d328.js"
+    "static/js/main.8267f338.js"
   ]
 }
