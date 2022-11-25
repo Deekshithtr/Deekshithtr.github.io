@@ -1,0 +1,51 @@
+@import '../../scss/variables';
+
+.cardWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 18rem;
+    height: 20rem;
+    padding: 0.5rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+    .imageContainer {
+        width: 6rem;
+        height: 10rem;
+
+        .image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .title {
+        text-align: center;
+        margin-top: 0.5rem;
+        text-overflow: ellipsis;
+        width: 30ch;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .priceContainer {
+        margin-top: 0.5rem;
+
+        .price {
+            font-weight: 600;
+            font-size: 1.25rem;
+        }
+
+        .actualPrice {
+            text-decoration: line-through;
+            color: $grey;
+        }
+
+        .offer {
+            color: $pinkColor;
+            margin-left: 0.5rem;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import '../../scss/variables';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0.75rem 2.5rem;
+  background-color: $pinkColor;
+  color: $whiteColor;
+  z-index: 999;
+
+  .rightContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+  }
+
+  .navbarHeading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .cartIcon {
+    cursor: pointer;
+  }
+}
