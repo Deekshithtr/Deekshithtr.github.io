@@ -2,7 +2,7 @@
 
 This is a E-commerce application which was built using `react` library with `typescript` as a language.Here I have used `redux-toolkit` for state management, `react-router-dom` for routing and `redux-persist` for maintaining store details after page refresh.The data is fetched from `https://fakestoreapi.com` api.
 
-To view the ecommerce web application [Click here](https://deekshithtr.github.io/EKart/).
+To view the ecommerce web application [Click here](https://deekshithtr.github.io/ekart/).
 
 
 ## Snapshots
