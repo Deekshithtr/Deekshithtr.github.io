@@ -42,7 +42,7 @@ const Cart = () => {
               <div className='cartDescription'>{productList[key].description}</div>
               <div className='priceContainer'>
                 <span className='price'>Price: ${productList[key].price}</span>
-                <span className='quantity'>Quantity: {filteredCartDetails[key].count}</span>
+                <span className='quantity'>Quantity: {filteredCartDetails?.[key]?.count}</span>
               </div>
             </div>
           </div>
